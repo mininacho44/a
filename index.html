@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple 7 - Casino en vivo</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1a1a1a; /* Fondo oscuro para que combine */
+        }
+        .container {
+            position: relative;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .whatsapp-btn {
+            position: absolute;
+            bottom: 80px; /* Ajustado para que coincida con el botón en el PNG */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px; /* Tamaño del botón en el diseño */
+            height: 50px; /* Altura del botón */
+            background-color: transparent; /* Transparente para ver el texto del PNG */
+            border: 2px solid transparent; /* Borde invisible por defecto */
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-btn:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco semitransparente */
+            border: 2px solid white; /* Borde blanco */
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Brillo blanco */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="triple7.png" alt="Triple 7 Casino">
+        <a href="https://wa.me/5491126703192" class="whatsapp-btn"></a>
+    </div>
+</body>
+</html>
